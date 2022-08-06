@@ -1,0 +1,47 @@
+
+.bar li{
+    display: inline-block;
+    float: right;
+    margin: 20px;
+}
+.form{
+    text-align: center;
+    margin: 10px;
+    padding: 1px;
+}
+.bar{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    color: green;
+}
+.dropdown{
+    display: inline-flex;
+
+}
+#display{
+    height: 200px;
+    width: px;
+    margin-top: 5px;
+    padding: 40px;
+    margin: 5px;
+}
+#drinks{
+    height: 210px;
+    width: px;
+    margin-top: 5px;
+    padding: 40px;
+    margin: 5px;
+}
+#snacks{
+    height: 200px;
+    width: px;
+    margin-top: 5px;
+    padding: 40px;
+    margin: 5px;
+}
+body{
+    background-color: beige;
+}
