@@ -45,3 +45,13 @@ body{
     height: 1000px;
     margin: 10px;
 }
+h2{
+    background-color: rgb(223, 204, 41);
+}
+.needs{
+    font-style: italic;
+    font-size: x-large;
+}
+.output{
+    display: none;
+}

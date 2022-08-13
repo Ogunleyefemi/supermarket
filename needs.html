@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Online Store</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <h1>SUPERMARKET.ng</h1>
+
+    <nav class="bar">
+    <ul>
+        <li><a href="login.html">Login/Register</a></li>
+        <li><a href="basket.html">MY BASKET</a></li>
+        <li><a href="needs.html">MY NEEDS</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <input type="text" class="form" placeholder="product"> <button class="bg-success" type="submit">SEARCH</button>
+    </ul>
+
+    <!-- customer's info -->
+    <p class="needs">Dear customer, kindly provide us your address and also the list of all items you need.</p><br><br>
+
+    <form id="list">
+        <label for="">NAME :</label>
+        <input type="text" id="name" placeholder="name" required><br><br>
+        <label for="">ADDRESS :</label>
+        <input type="text" id="address" placeholder="address" required><br><br>
+        <label for="">PHONE NUMBER :</label>
+        <input type="number" id="number" placeholder="phone number" required><br><br><br>
+
+        <!-- customer's need -->
+        <p class="needs">SIR/MA, Your list</p>
+        <input type="text" class="form-control" id="item1" required><br>
+        <input type="text" class="form-control" id="item2" required><br>
+        <input type="text" class="form-control" id="item3" required><br>
+        <input type="text" class="form-control" id="item4" required><br>
+        <input type="text" class="form-control" id="item5" required><br>
+        <input type="text" class="form-control" id="item6" required><br>
+        <input type="submit" value="submit" class="bg-success">
+    </form><br><br>
+
+    <!-- output -->
+    <P class="output">Thanks for contacting SUPERMARKET.ng, Your items will be delivered to Mr/Mrs <span class="name1"></span>, at <span class="addresss1"></span>, with the phone number <span class="number1"></span>. kindly confirm your items; <span class="itm1"></span>, <span class="itm2"></span>, <span class="itm3"></span>, <span class="itm4"></span>, <span class="itm5"></span>, <span class="itm6"></span>. Thank you!</P>
+
+    
+</body>
+</html>
