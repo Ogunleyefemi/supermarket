@@ -1,6 +1,6 @@
 
 .bar li{
-    display: inline-block;
+    display: block;
     float: right;
     margin: 20px;
 }
