@@ -11,16 +11,18 @@ $("#list").submit(function(event){
     let itm5 =  $("#item5").val();
     let itm6 =  $("#item6").val();
 
-    let order = [itm1,itm2,itm3,itm4,itm5,itm6].sort();
-    // let newOrder = order.sort();
+    let order = [itm1,itm2,itm3,itm4,itm5,itm6];
+    let newOrder = order.sort();
     console.log(order);
+    $("#list").hide();
 
     $(".name1").append(name);
     $(".address1").append(address);
     $(".number1").append(number);
-    order.forEach(function(page){
-        $(o)
-    }
+    newOrder.forEach(function(page){
+        $(".listing").prepend("<li>".concat(page));
+    })
+    
     // document.write(order);
     // $(".itm1").append(itm1);
     // $(".itm2").append(itm2);
