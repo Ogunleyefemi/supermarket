@@ -55,3 +55,6 @@ h2{
 .output{
     display: none;
 }
+#order{
+    display: inline-block;
+}

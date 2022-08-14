@@ -11,6 +11,10 @@ $("#list").submit(function(event){
     let itm5 =  $("#item5").val();
     let itm6 =  $("#item6").val();
 
+    let order = ["#itm1","#itm2","#itm3","#itm4","#itm5","#itm6"];
+    let newOrder = order.sort();
+    console.log(newOrder);
+
     $(".name1").append(name);
     $(".address1").append(address);
     $(".number1").append(number);
